@@ -1,0 +1,51 @@
+html{
+    height: 100%;
+}
+
+body{
+    background: rgb(193,13,241);
+    background: linear-gradient(184deg, rgba(193,13,241,1) 0%, rgba(16,27,88,1) 100%);
+}
+.topo{
+    font-weight: bold;
+    font-family: 'Raleway', sans-serif;
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.perfil{
+    box-shadow: 0px 0px 20px white;
+    border: solid 2px white;
+    width: 100px;
+    border-radius: 50px;
+}
+
+.social{
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 20px;
+    list-style: none;
+}
+.social li a img{
+    width: 30px;
+}
+
+.projetos{
+   
+    list-style: none;
+}
+.projetos li{
+    display: block;
+    text-align: center;
+}
+.projetos li a {
+    box-shadow: 0px 0px 20px white;
+    padding: 10px;
+    margin: 13px;
+    border-radius: 3px;
+    background: white;
+    font-family: 'Architects Daughter', cursive;
+    color: grey;
+    text-decoration: none;
+}
